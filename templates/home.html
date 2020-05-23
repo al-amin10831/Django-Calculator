@@ -1,0 +1,14 @@
+<h1>Welcome To Django Calculator</h1>
+
+<form action="{% url 'calc' %}">
+    <textarea  placeholder="Enter the frist Number" name="Frist"></textarea>
+    <textarea  placeholder="Enter the second Number" name="Second"></textarea>
+    <select   name="math">
+        <option>+</option>
+        <option>-</option>
+        <option>*</option>
+        <option>/</option>
+    </select>
+    <input type="submit" />
+
+</form>
